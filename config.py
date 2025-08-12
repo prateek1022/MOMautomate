@@ -25,9 +25,12 @@ os.makedirs(DATA_FOLDER, exist_ok=True)
 log_file = os.path.join(LOG_FOLDER, f"{datetime.date.today()}.txt")
 
 # API Keys
+GROQ_API_KEY = "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"
 
 # Email Configuration
 SENDER_EMAIL = "yoursummarizer@gmail.com"
+SENDER_PASSWORD = "kvsgaflfadzrilgo"
+# Email Configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 

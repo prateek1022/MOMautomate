@@ -16,20 +16,27 @@ AI Meeting Summarizer for Teams — a command-line tool that transcribes meeting
 
 ## Installation
 
-1.  **Clone the repository:**
+1.  **Clone the project repository:**
     ```bash
     git clone <your-repo-url>
     cd whisper-project
     ```
 
-2.  **Create and activate a virtual environment:**
+2.  **Clone the OpenAI Whisper repository:**
+    This project requires the source code of OpenAI's Whisper for packaging. Clone it into the project directory.
+    ```bash
+    # This will create a 'whisper' folder in your project directory
+    git clone https://github.com/openai/whisper.git whisper
+    ```
+
+3.  **Create and activate a virtual environment:**
     ```bash
     # For Windows
     python -m venv venv
     venv\Scripts\activate
     ```
 
-3.  **Install the required Python packages:**
+4.  **Install the required Python packages:**
     ```bash
     pip install -r requirements.txt
     ```

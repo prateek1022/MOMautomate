@@ -26,8 +26,10 @@ log_file = os.path.join(LOG_FOLDER, f"{datetime.date.today()}.txt")
 
 # API Keys
 
+
 # Email Configuration
 SENDER_EMAIL = "yoursummarizer@gmail.com"
+
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 

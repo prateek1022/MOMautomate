@@ -24,7 +24,7 @@ os.makedirs(DATA_FOLDER, exist_ok=True)
 # Log file path
 log_file = os.path.join(LOG_FOLDER, f"{datetime.date.today()}.txt")
 
-# API Keys
+
 
 # Email Configuration
 SENDER_EMAIL = "yoursummarizer@gmail.com"
